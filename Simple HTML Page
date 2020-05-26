@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- TODO change the title of the page to your firstname-lastname format in lowercase -->
+    <title>Page Name Here</title>
+    <style>
+      *{
+        margin:0;
+        padding:0;
+        border:0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+      }
+      body{
+      /* TODO use "background-color: " to choose a color for your background */
+      background-color: ;
+      padding: 4px;
+      }
+      .nav{
+      display: block;
+      background-color: lightgrey;
+      width: 100%;
+      }
+      .nav > .quick-access li{
+      display: inline-block;
+      padding: 4px 4px;
+      }
+      .nav > .quick-access li > a{
+        color: black;
+        text-decoration: none;
+      }
+      h1{
+      display: inline-block;
+      font-weight: bold;
+      font-size: 28px;
+      padding-bottom: 15px;
+      }
+      img{
+      float: left;
+      padding: 4px;
+      padding-right: 15px;
+      width: 25%;
+      height: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+        <ul class="quick-access">
+          <li><a href="first_page.html">Page One</a></li>
+          <li><a href="second_page.html">Page Two</a></li>
+          <li><a href="thrid_page.html">Page Three</a></li>
+          <li><a href="fourth_page.html">Page Four</a></li>
+          <li><a href="fifthpage.html">Page Five</a></li>
+        </ul>
+    </div>
+    <h1>About Me: </h1>
+    <!-- TODO replace the image with one of your own in the img src="" -->
+      <img src="http://www.xtremelimocincy.com/wp-content/uploads/2018/01/img-placeholder-square-300x300.jpg" alt="">
+    <div>
+      <!-- TODO, change the latin filler text to information about you,
+      make sure it is enough to wrap around your image -->
+        <p>Lorem ipsum dolor sit amet, vix at probo accommodare disputationi, assum cetero dolorem an eam. Vim id lobortis
+          dignissim, dolor tamquam sadipscing cum et. Ex dicit petentium pro, ei duis molestie conceptam ius. Debitis placerat
+          ne est, vim suas dicta an. Has stet detraxit dissentiunt ea, no eos omittantur persequeris signiferumque. Ius vidisse
+          vivendum salutatus te, no cetero vivendum mea. Est ea graece putant, sit eu commune contentiones, vim id putant fabellas.</p><br>
+        <p>Ius eu dolore essent integre. Usu mutat facer temporibus ea. Facilis constituto ex sed. Pro quem graecis senserit te,
+           eum te augue euismod platonem, docendi omittantur nam in. Sea ne nihil vulputate reprehendunt, quod praesent cum in,
+           qui appareat percipitur te. Patrioque splendide ne vis. Per veniam salutandi ea, et deserunt indoctum liberavisse pri.</p><br>
+        <p>Eu omnis incorrupte per, ex cum indoctum efficiendi. Vel ei legere erroribus, nullam volumus urbanitas ea pri.
+          Ne mel dicit impedit, an quo option delectus deseruisse, eam augue ridens legendos id. Sensibus principes mea te.
+          Sapientem dissentiet vix ad. Ne doctus pericula sea, pri ut eleifend torquatos, cu soleat deleniti nec.</p><br>
+        <p>Summo scribentur pro te, id mei alii persequeris voluptatibus. Eu dicam voluptatum inciderint vel, sea verterem patrioque at.
+          Est ne timeam nonumes, qui ea sonet corpora. Mucius eruditi tractatos vim te, indoctum expetendis qui ad, vim in virtute dolores.
+          Te habeo everti dissentiunt vis, vide iuvaret invidunt sed cu, sea ei legere nemore admodum.</p><br>
+        <p>Eu omnis incorrupte per, ex cum indoctum efficiendi. Vel ei legere erroribus, nullam volumus urbanitas ea pri.
+          Ne mel dicit impedit, an quo option delectus deseruisse, eam augue ridens legendos id. Sensibus principes mea te.
+          Sapientem dissentiet vix ad. Ne doctus pericula sea, pri ut eleifend torquatos, cu soleat deleniti nec.</p><br>
+        <p>Lorem ipsum dolor sit amet, vix at probo accommodare disputationi, assum cetero dolorem an eam. Vim id lobortis
+          dignissim, dolor tamquam sadipscing cum et. Ex dicit petentium pro, ei duis molestie conceptam ius. Debitis placerat
+          ne est, vim suas dicta an. Has stet detraxit dissentiunt ea, no eos omittantur persequeris signiferumque. Ius vidisse
+          vivendum salutatus te, no cetero vivendum mea. Est ea graece putant, sit eu commune contentiones, vim id putant fabellas.</p><br>
+    </div>
+  </body>
+</html>
